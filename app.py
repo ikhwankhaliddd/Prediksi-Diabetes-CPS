@@ -20,7 +20,7 @@ st.image(image, caption = "Version 1.0", use_column_width=True)
 
 
 #Masukkan Dataset
-df = pd.read_csv('diabetes.csv ')
+df = pd.read_csv('diabetes.csv')
 
 #Set Subheader
 st.subheader('Data Information:')
