@@ -15,12 +15,12 @@ Akan mendeteksi apakah seseorang memiliki diabetes atau tidak menggunakan Random
 """)
 
 #Display Gambar
-image = Image.open('D:/Repository ML/Diabates Prediction/media/Diabetes Prediction using machine learning.PNG')
+image = Image.open('Diabetes Prediction using machine learning.PNG')
 st.image(image, caption = "Version 1.0", use_column_width=True)
 
 
 #Masukkan Dataset
-df = pd.read_csv('D:/Repository ML/Diabates Prediction/dataset/diabetes.CSV ')
+df = pd.read_csv('diabetes.CSV ')
 
 #Set Subheader
 st.subheader('Data Information:')
